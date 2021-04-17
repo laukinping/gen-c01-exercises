@@ -1,0 +1,173 @@
+#intro .jumbotron{
+    height:70vh;
+    margin-bottom: 0px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+p,a,input,label,textarea,span,ul,li{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#intro h1 {
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.btn {
+    background-color: #F05F5C;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+#intro .container {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+header nav img{
+    width:155px;
+}
+header li {
+    margin: 0px 10px;
+}
+#second {
+    margin: 80px 0;
+}
+h3 {
+    font-size: 36px;
+    line-height: 1.5;
+    margin-bottom: 80px;
+}
+#second img{
+    width: 100px;
+    border-radius: 100%;
+    margin-bottom:13px;
+
+}
+p{
+    color: #a0a0a0;
+}
+#second p.lead{
+    color:rgb(0, 0, 0);
+}
+
+#latest {
+    background: rgb(248, 248, 248);
+    padding: 80px 0px;
+}
+#latest img {
+    max-width: 100%;
+}
+
+#latest .upper{
+    position:relative;
+
+}
+#latest .innertext {
+    position: absolute;
+    bottom: 12px;
+    left: 28px;
+}
+#latest .innertext span{
+    background-color: rgb(255, 255, 255,0.7);
+    padding: 6px 15px;
+    border-radius: 20px;
+ 
+}
+#latest .innertext h4{
+    font-size: 19px;
+    margin-top: 18px;
+}
+
+#latest .lower h3 {
+    font-size: 24px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+
+#latest .lower i {
+    margin-right: 10px;
+}
+
+#latest .lower {
+    padding: 10px 30px;
+    
+}
+
+#latest .outer {
+    background: white;
+    box-shadow: 0 0 8px 0 rgb(0 0 0 / 8%);
+}
+#latest a{
+    color:black;
+    text-decoration: none;
+}
+#email {
+    padding: 80px 0;
+}
+
+#email h3{
+    margin-bottom: 80px;
+}
+
+footer{
+    border-top: solid 1px #c9c9c9;
+    padding: 80px 0;
+}
+footer img {
+  width:100px; 
+  margin-bottom: 20px;
+
+}
+footer h4{
+    margin-bottom: 20px;
+}
+
+#email a{
+    margin-top: 20px;
+}
+
+footer ul { 
+    list-style: none;
+    float: left;
+    padding:0;
+    margin-right:50px;
+    
+}
+
+footer li {
+    
+    margin-bottom: 10px;
+
+}
+footer a {
+    color:#707070 ;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #second h5{
+        margin-bottom: 63px;
+    }
+    #latest .outer{
+        margin-bottom: 50px;
+
+    }
+    #latest img {
+        width:100%;
+    }
+    footer h4 {
+        margin-top:35px; 
+    }
+
+
+
+
+}
