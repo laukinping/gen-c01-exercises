@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./add-item.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker3.min.css">
+    <title>To Do List</title>
+</head>
+
+<body>
+    <div class="d-flex">
+        <div class="col-sm-6 col-12 p-0 m-auto">
+            <div class="pt-4\3 pb-4"></div>
+            <!--arrow-->
+            <div class="container-fluid">
+                <div class="row py-2 bg-secondary">
+                    <div class="col pb-2">
+                        <a href="../main/Main.html"><i class="fas fa-arrow-left back-icon"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--new task-->
+            <div class="container-fluid">
+                <div class="row mb-2 pt-5 pb-4 text-center">
+                    <div class="col pb-2">
+                        <input class="form-control form-control-lg text-center" type="text" placeholder="New Task">
+                    </div>
+                </div>
+            </div>
+
+            <!--add details-->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col mx-2 pb-5">
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Add details" id="floatingTextarea"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--priority-->
+            <div class="container-fluid priority-box">
+                <div class="row text-center">
+                    <div class="col">
+                        <h5>Priority Level</h5>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col">
+                        <div class="d-flex justify-content-center">
+                            <h5 class="text-success mr-2">Not urgent</h5>
+                            <form class="range-field w-25">
+                                <input class="border-0" type="range" min="1" max="3" />
+                            </form>
+                            <h5 class="text-danger pl-2 ml-5">Urgent</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--date-->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col mx-2 pt-5">
+                        <input type="date" class="form-control" id="date" name="date">
+                    </div>
+                </div>
+            </div>
+
+            <!--confirm button-->
+            <div class="container-fluid">
+                <div class="row text-center pt-4 style=">
+                    <div class="col ">
+                        <a href="../main/Main.html "><button type="button " class="btn btn-secondary ">Confirm</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js " integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js " integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc " crossorigin="anonymous "></script>
+</body>
+
+</html>

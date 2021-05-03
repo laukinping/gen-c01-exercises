@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>To Do List</title>
+</head>
+
+<body class="page-background">
+<div class="d-flex">
+    <div class="col-sm-6 col-12 p-0 m-auto" >
+        <div class="pt-3 pb-4"></div>
+    <!-- Nav bar -->
+    <header>
+            <div class="container-fluid" style="box-shadow: 0 5px 5px -5px #333;">
+                <div class="row bg-secondary py-2" >
+                    <div class="col-3 text-center pl-3">
+                        <img src="../resources/image/undraw_profile_pic_ic5t.svg" class="profile-icon py-1">
+                    </div>
+                    <div class="col-6 text-center "> 
+                        <div class="top-title py-1">To Do List</div>
+                    </div>
+                    <div class="col-3 text-center pr-3">
+                        <a href="../index.html"><i class="fas fa-sign-out-alt logout-icon py-1"></i></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Tool bar -->
+        <div class="container-fluid">
+            <div class="row bg-primary py-2 tool-bar border-bottom border-info py-md-3">
+                <div class="col-3 text-center pl-4">
+                    <div class="dropdown">
+                        <button class="btn-4 btn-link" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-sort-amount-down tool-bar-icon"></i>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Date(Close to far)</a>
+                            <a class="dropdown-item" href="#">Date(Far to close)</a>
+                            <a class="dropdown-item" href="#">Prioirty(High to low)</a>
+                            <a class="dropdown-item" href="#">Prioirty(Low to high)</a>
+                            <a class="dropdown-item" href="#">Status(Done to TODO)</a>
+                            <a class="dropdown-item" href="#">Status(TODO to Done)</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    
+                </div>
+                <div class="col-3 text-center pr-4">
+                    <a href="../add-item/Add-item.html"><i class="fas fa-plus tool-bar-icon"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- content list -->
+        <div class="container-fluid">
+            <div class="row content-background-1 py-3 py-md-3" style="box-shadow: 0 0 5px #333;">
+                <div class="col text-center">
+                    <div class="pim">
+                        <i class="fas fa-circle pl-2 pi-h"></i>
+                    </div>
+                </div>
+                <div class="col-8 text-center"> 
+                    <div class="content-text">example text - task title</div>
+                </div>
+                <div class="col text-right pr-4">
+                    <a href="../edit/Edit.html"><i class="fas fa-chevron-right edit-icon"></i></a>
+                </div>
+                <div class="container-fluid mt-3">
+                    <div class="row">
+                        <div class="col text-right slider-text">
+                            TODO | INPROGRESS 
+                        </div>
+                        <div class="col text-center">
+                            <form class="range-field w-100">
+                                <input class="border-0" type="range" min="1" max="4" />
+                            </form>
+                        </div>
+                        <div class="col text-left slider-text">
+                            REVIEW | DONE
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-fluid">
+            <div class="row content-background-2 py-3 py-md-3" style="box-shadow: 0 0 5px #333;">
+                <div class="col text-center">
+                    <div class="pim">
+                        <i class="fas fa-circle pl-2 pi-h"></i>
+                    </div>
+                </div>
+                <div class="col-8 text-center"> 
+                    <div class="content-text">example text - task title</div>
+                </div>
+                <div class="col text-right pr-4">
+                    <a href="../edit/Edit.html"><i class="fas fa-chevron-right edit-icon"></i></a>
+                </div>
+                <div class="container-fluid mt-3">
+                    <div class="row">
+                        <div class="col text-right slider-text">
+                            TODO | INPROGRESS 
+                        </div>
+                        <div class="col text-center">
+                            <form class="range-field w-100">
+                                <input class="border-0" type="range" min="1" max="4" />
+                            </form>
+                        </div>
+                        <div class="col text-left slider-text">
+                            REVIEW | DONE
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-fluid">
+            <div class="row content-background-3 py-3 py-md-3" style="box-shadow: 0 0 5px #333;">
+                <div class="col text-center">
+                    <div class="pim">
+                        <i class="fas fa-circle pl-2 pi-m"></i>
+                    </div>
+                </div>
+                <div class="col-8 text-center"> 
+                    <div class="content-text">example text - task title</div>
+                </div>
+                <div class="col text-right pr-4">
+                    <a href="../edit/Edit.html"><i class="fas fa-chevron-right edit-icon"></i></a>
+                </div>
+                <div class="container-fluid mt-3">
+                    <div class="row">
+                        <div class="col text-right slider-text">
+                            TODO | INPROGRESS 
+                        </div>
+                        <div class="col text-center">
+                            <form class="range-field w-100">
+                                <input class="border-0" type="range" min="1" max="4" />
+                            </form>
+                        </div>
+                        <div class="col text-left slider-text">
+                            REVIEW | DONE
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-fluid">
+            <div class="row content-background-4 py-3 py-md-3" style="box-shadow: 0 0 5px #333;">
+                <div class="col text-center">
+                    <div class="pim">
+                        <i class="fas fa-circle pl-2 pi-m"></i>
+                    </div>
+                </div>
+                <div class="col-8 text-center"> 
+                    <div class="content-text">example text - task title</div>
+                </div>
+                <div class="col text-right pr-4">
+                    <a href="../edit/Edit.html"><i class="fas fa-chevron-right edit-icon"></i></a>
+                </div>
+                <div class="container-fluid mt-3">
+                    <div class="row">
+                        <div class="col text-right slider-text">
+                            TODO | INPROGRESS 
+                        </div>
+                        <div class="col text-center">
+                            <form class="range-field w-100">
+                                <input class="border-0" type="range" min="1" max="4" />
+                            </form>
+                        </div>
+                        <div class="col text-left slider-text">
+                            REVIEW | DONE
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-fluid">
+            <div class="row content-background-5 py-3 py-md-3" style="box-shadow: 0 0 5px #333;">
+                <div class="col text-center">
+                    <div class="pim">
+                        <i class="fas fa-circle pl-2 pi-l"></i>
+                    </div>
+                </div>
+                <div class="col-8 text-center"> 
+                    <div class="content-text">example text - task title</div>
+                </div>
+                <div class="col text-right pr-4">
+                    <a href="../edit/Edit.html"><i class="fas fa-chevron-right edit-icon"></i></a>
+                </div>
+                <div class="container-fluid mt-3">
+                    <div class="row">
+                        <div class="col text-right slider-text">
+                            TODO | INPROGRESS 
+                        </div>
+                        <div class="col text-center">
+                            <form class="range-field w-100">
+                                <input class="border-0" type="range" min="1" max="4" />
+                            </form>
+                        </div>
+                        <div class="col text-left slider-text">
+                            REVIEW | DONE
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-fluid">
+            <div class="row content-background-6 py-3 py-md-3" style="box-shadow: 0 0 5px #333;">
+                <div class="col text-center">
+                    <div class="pim">
+                        <i class="fas fa-circle pl-2 pi-l"></i>
+                    </div>
+                </div>
+                <div class="col-8 text-center"> 
+                    <div class="content-text">example text - task title</div>
+                </div>
+                <div class="col text-right pr-4">
+                    <a href="../edit/Edit.html"><i class="fas fa-chevron-right edit-icon"></i></a>
+                </div>
+                <div class="container-fluid mt-3">
+                    <div class="row">
+                        <div class="col text-right slider-text">
+                            TODO | INPROGRESS 
+                        </div>
+                        <div class="col text-center">
+                            <form class="range-field w-100">
+                                <input class="border-0" type="range" min="1" max="4" />
+                            </form>
+                        </div>
+                        <div class="col text-left slider-text">
+                            REVIEW | DONE
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-fluid">
+            <div class="row content-background-7 py-3 py-md-3" style="box-shadow: 0 0 5px #333;">
+                <div class="col text-center">
+                    <div class="pim">
+                        <i class="fas fa-circle pl-2 pi-l"></i>
+                    </div>
+                </div>
+                <div class="col-8 text-center"> 
+                    <div class="content-text">example text - task title</div>
+                </div>
+                <div class="col text-right pr-4">
+                    <a href="../edit/Edit.html"><i class="fas fa-chevron-right edit-icon"></i></a>
+                </div>
+                <div class="container-fluid mt-3">
+                    <div class="row">
+                        <div class="col text-right slider-text">
+                            TODO | INPROGRESS 
+                        </div>
+                        <div class="col text-center">
+                            <form class="range-field w-100">
+                                <input class="border-0" type="range" min="1" max="4" />
+                            </form>
+                        </div>
+                        <div class="col text-left slider-text">
+                            REVIEW | DONE
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+   
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

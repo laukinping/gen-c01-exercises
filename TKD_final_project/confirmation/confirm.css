@@ -1,0 +1,28 @@
+html, body{
+   font-size: 30px;
+   background-image: url("../resources/image/Large-Triangles.svg");  
+}
+
+#question {
+    margin: 100px 0;
+}
+
+#question p {
+    background-image: url("../resources/image/deepblue.svg"); 
+    color:white;
+    border-radius: 13px;
+    padding: 35px 0;
+}
+
+#answer{
+    margin: 100px 0;
+}
+
+#answer a {
+   background-image: url("../resources/image/deepblue.svg"); 
+    border: 0px ;
+    padding: 20px 60px;
+
+}
+
+

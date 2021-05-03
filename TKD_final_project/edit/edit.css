@@ -1,0 +1,35 @@
+html,
+body {
+    background-image: url("../resources/image/Large-Triangles.svg");
+}
+
+.priority-box {
+    background-color: grey;
+    border: grey solid 12px;
+    color: white;
+    border-radius: 20px;
+}
+
+.form-floating {
+    background-color: grey;
+    border: grey solid 15px;
+    color: white;
+    border-radius: 20px;
+}
+
+#floatingTextarea {
+    height: 200px;
+}
+
+.button {
+    position: right;
+}
+
+.btn {
+    border-radius: 20px;
+}
+
+.back-icon {
+    color: white;
+    font-size: 2rem;
+}

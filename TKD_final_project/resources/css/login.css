@@ -1,0 +1,29 @@
+body{
+    background-image: url("../image/Large-Triangles.svg"); 
+ }
+ 
+
+html {
+    font-size: 16px;
+ }
+
+.icon {
+    height: 100px;
+    width: 100px;
+}
+
+.topcolor{
+    background-image: url("../image/deepblue.svg"); 
+}
+
+.buttoncolor {
+    background: url("../image/deepblue.svg"); 
+    border-radius: 20px;
+    text-align: center;
+    font-weight:bold;
+    font-size:1.7em;
+    border: 1px solid white;
+    color: rgb(221, 221, 221);
+    padding: 20px 50px;
+
+}
